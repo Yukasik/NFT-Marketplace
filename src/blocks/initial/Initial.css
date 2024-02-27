@@ -1,0 +1,104 @@
+.initial-wrap {
+  height: 814px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.initial-left-text h1 {
+  color: #ffffff;
+  font-size: 67px;
+  font-weight: 500;
+}
+
+.initial-left-text p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.initial-left-button button {
+  width: 224px;
+  height: 60px;
+  background-color: #a259ff;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: 0.4s;
+}
+
+.initial-left-button button:hover {
+  background-color: #3b3b3b;
+}
+
+.info-text {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.info-fatty-text {
+  font-weight: 600;
+  font-family: "Space Mono", monospace;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: -15px;
+}
+
+.initial-left-info {
+  display: flex;
+  justify-content: space-between;
+  width: 510px;
+}
+
+.initial-right-card {
+  width: 510px;
+  height: 510px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.initial-right-card:hover {
+  transform: scale(1.1);
+}
+
+.initial-right-card-text {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.initial-right-card-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.initial-right-card-user p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.initial-right-card-info {
+  margin: 20px 0px 0px 20px;
+}
+
+@media (max-width: 1026px) {
+  .initial-left-text h1 {
+    font-size: 57px;
+  }
+  .initial-left-text p {
+    font-size: 16px;
+  }
+  .initial-left-button button {
+    width: 204px;
+    height: 40px;
+    font-size: 13px;
+  }
+}

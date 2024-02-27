@@ -1,0 +1,137 @@
+.collections {
+  height: 603px;
+}
+
+.collections-search {
+  height: 351px;
+}
+
+.collections-search h1 {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 500;
+  margin: 80px 0px 0px 0px;
+}
+
+.collections-search p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 10px 0px 0px 0px;
+}
+
+.collections-search-input {
+  color: #ffffff;
+  padding-left: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #2b2b2b;
+  width: 1050px;
+  height: 60px;
+  border: 1px solid #3b3b3b;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 20px;
+  font-size: 16px;
+  margin: 30px 0px 80px 0px;
+}
+.collections-search-input-img {
+  position: absolute;
+  left: 1010px;
+  margin-top: 48px;
+}
+
+.collections-upper-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collections-navigation-left-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.collections-navigation-left-span-number {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 55px;
+  color: #ffffff;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+}
+
+.collections-navigation-left-link {
+  font-size: 22px;
+  color: #858584;
+  font-weight: 500;
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.collections-navigation-left-link:hover {
+  color: #ffffff;
+}
+
+.collections-navigation-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 525px;
+  height: 60px;
+}
+
+.collections-navigation-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 525px;
+  height: 60px;
+  border-bottom: 2px solid #858584;
+}
+
+.collections-navigation-right h2 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+
+.collections-navigation-right-container {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.collections-navigation-right-span-number {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 40px;
+  color: #ffffff;
+  background-color: #858584;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+}
+
+.collections-navigation {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #3b3b3b;
+}

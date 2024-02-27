@@ -1,0 +1,55 @@
+.creator-card {
+  width: 240px;
+  height: 238px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.creator-card:hover {
+  transform: scale(1.1);
+}
+
+.creator-container {
+  position: relative;
+  display: inline-block;
+  padding-left: 13px;
+}
+
+.creator-span-number {
+  position: absolute;
+  display: block;
+  height: 30px;
+  width: 30px;
+  color: #858584;
+  background-color: #2b2b2b;
+  border-radius: 22px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: center;
+  font-family: "Space Mono", monospace;
+}
+
+.creator-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.creator-card-text h1 {
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+}
+
+.creator-card-text p {
+  color: #858584;
+  font-size: 16px;
+  text-align: center;
+}
+
+.creator-span-info {
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+}

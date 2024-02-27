@@ -1,0 +1,23 @@
+.rankings-title-wrap {
+  display: flex;
+  align-items: center;
+  height: 271px;
+}
+
+.rankings-title-text {
+  margin-left: 115px;
+}
+
+.rankings-title-text h1 {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.rankings-title-text p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 20px 0px 0px 0px;
+}

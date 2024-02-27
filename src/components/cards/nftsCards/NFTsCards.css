@@ -1,0 +1,36 @@
+.nfts-card-info {
+  margin-left: 20px;
+}
+
+.nfts-card-info h1 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 20px 0 0 0;
+}
+
+.nfts-card-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.nfts-card-info-title {
+  font-size: 12px;
+  font-family: "Space Mono", monospace;
+  color: #858584;
+}
+
+.nfts-card-info-title span {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.nfts-card-info-block-text {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}

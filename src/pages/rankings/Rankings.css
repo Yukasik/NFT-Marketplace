@@ -1,0 +1,76 @@
+.rankings-navigation-active {
+  width: 262px;
+  border-bottom: 2px solid #858584;
+  text-align: center;
+}
+
+.rankings-navigation-not-active {
+  width: 262px;
+  text-align: center;
+}
+
+.rankings-navigation-active {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.rankings-navigation-not-active {
+  color: #858584;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.rankings-navigation-not-active:hover {
+  color: #ffffff;
+}
+
+.rankings-block-artist-info-left {
+  display: flex;
+  width: 430px;
+  margin-left: 25px;
+}
+
+.rankings-block-artist-info-right {
+  display: flex;
+  width: 520px;
+  justify-content: space-around;
+}
+
+.rankings-block-artist-info-left p {
+  color: #858584;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Space Mono", monospace;
+}
+
+.rankings-block-artist-info-left-artist {
+  margin-left: 30px;
+}
+
+.rankings-block-artist-info-right p {
+  color: #858584;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Space Mono", monospace;
+}
+
+.rankings-block-artist-info {
+  display: flex;
+  width: 1050px;
+  height: 46;
+  border: 1px solid #3b3b3b;
+  border-radius: 20px;
+}
+
+.rankings-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2206px;
+}

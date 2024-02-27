@@ -1,0 +1,55 @@
+.connect-wallet {
+  height: 603px;
+}
+
+.connect-wallet-wrap {
+  display: flex;
+}
+
+.connect-wallet-right {
+  margin-left: 80px;
+}
+
+.connect-wallet-left {
+  background-image: url(../../img/connectWallet/SpaceTwo.svg);
+  height: 603px;
+  width: 940px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+}
+
+.connect-wallet-right-text h1 {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 500;
+  margin: 70px 0px 0px 0px;
+}
+
+.connect-wallet-right-text p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 20px 0px 40px 0px;
+}
+
+.connect-wallet-right-button {
+  background-color: #3b3b3b;
+  color: #ffffff;
+  font-size: 22px;
+  width: 320px;
+  height: 72px;
+  border: 1px solid #a259ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  margin: 20px 0px 0px 0px;
+  transition-duration: 0.4s;
+}
+
+.connect-wallet-right-button:hover {
+  background-color: #a259ff;
+}

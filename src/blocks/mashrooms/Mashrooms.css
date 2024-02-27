@@ -1,0 +1,97 @@
+.mashrooms {
+  height: 640px;
+  background-image: url(../../img/home/img-mashrooms/BackgroundMushroom.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.mashrooms-wrap {
+  padding: 350px 0px 0px 300px;
+}
+
+.mashrooms-block-user {
+  width: 151px;
+  height: 44px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.mashrooms-block-user p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.mashrooms-title h1 {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 500;
+}
+
+.mashrooms-title button {
+  width: 198px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffffff;
+  color: #2b2b2b;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition-duration: 0.5s;
+}
+
+.mashrooms-title button:hover {
+  background-color: #3b3b3b;
+  border: none;
+  color: #ffffff;
+}
+
+.mashrooms-block-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1180px;
+}
+
+.mashrooms-timer {
+  background-color: #3b3b3b50;
+  width: 295px;
+  height: 147px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.mashrooms-timer-title {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Space Mono", monospace;
+  margin: 25px 0px 0px 25px;
+}
+
+.mashrooms-timer-text {
+  font-size: 34px;
+  font-family: "Space Mono", monospace;
+  color: #ffffff;
+  font-weight: 700;
+  margin: 0px 0px 0px 24px;
+}
+
+.mashrooms-timer-text-min p {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Space Mono", monospace;
+  margin: 0px;
+  padding-left: 5px;
+}
+
+.mashrooms-timer-text-min {
+  display: flex;
+  justify-content: space-around;
+}

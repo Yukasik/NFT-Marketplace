@@ -1,0 +1,26 @@
+.trending-card {
+  width: 330px;
+  height: 525px;
+}
+
+.trending-card-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.trending-card-info h1 {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 10px 0 0 0;
+  font-weight: 500;
+}
+
+.trending-card-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}

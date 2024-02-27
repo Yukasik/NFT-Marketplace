@@ -1,0 +1,18 @@
+.browse-card {
+  width: 240px;
+  height: 316px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.browse-card:hover {
+  transform: scale(1.1);
+}
+
+.browse-card h1 {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 30px;
+}

@@ -1,0 +1,30 @@
+.trending-wrap {
+  height: 830px;
+}
+
+.trending-text-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.trending-text {
+  margin-bottom: 80px;
+  width: 1450px;
+}
+
+.trending-text h1 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 500;
+}
+
+.trending-text p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.trending-cards {
+  display: flex;
+  justify-content: space-evenly;
+}

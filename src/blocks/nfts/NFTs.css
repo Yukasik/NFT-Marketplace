@@ -1,0 +1,72 @@
+.nfts {
+  margin-top: 140px;
+  height: 780px;
+}
+
+.nfts-title-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.nfts-title {
+  width: 1450px;
+}
+
+.nfts-title h1 {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.nfts-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1450px;
+}
+
+.nfts-block p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.nfts-block button {
+  width: 247px;
+  height: 60px;
+  border: none;
+  border-radius: 20px;
+  background-color: #2b2b2b;
+  border: 1px solid #a259ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition-duration: 0.5s;
+}
+
+.nfts-block button:hover {
+  background-color: #3b3b3b;
+  border: none;
+}
+
+.nfts-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
+
+.nfts-card {
+  width: 330px;
+  height: 469px;
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.nfts-card:hover {
+  transform: scale(1.1);
+}

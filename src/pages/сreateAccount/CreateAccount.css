@@ -1,0 +1,94 @@
+.sign-up {
+  height: 603px;
+}
+
+.sign-up-wrap {
+  display: flex;
+}
+
+.sign-up-left {
+  background-image: url(../../img/сreateAccount/Space.svg);
+  height: 603px;
+  width: 940px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+}
+
+.sign-up-right {
+  margin-left: 80px;
+}
+
+.sign-up-right-form-button {
+  background-color: #a259ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  width: 330px;
+  height: 46px;
+  border: none;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.sign-up-right-form-button:hover {
+  background-color: #3b3b3b;
+}
+
+.sign-up-right-form-text h1 {
+  color: #ffffff;
+  font-size: 51px;
+  font-weight: 500;
+  margin: 50px 0px 0px 0px;
+}
+
+.sign-up-right-form-text p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 20px 0px 40px 0px;
+}
+
+.sign-up-right-form {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.sign-up-right-form-button {
+  margin-top: 15px;
+}
+
+.sign-up-right-form-input {
+  padding-left: 25px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 330px;
+  height: 46px;
+  border: 1px solid #858584;
+  border-radius: 20px;
+  outline: none;
+  padding-left: 50px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.sign-up-right-form-input-img {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  color: rgba(0, 0, 0, 0.54);
+  padding-top: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #2b2b2b;
+}
+::-moz-placeholder {
+  color: #2b2b2b;
+}
+:-ms-input-placeholder {
+  color: #2b2b2b;
+}
+:-moz-placeholder {
+  color: #2b2b2b;
+}

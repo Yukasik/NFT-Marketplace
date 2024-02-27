@@ -1,0 +1,140 @@
+.header-logo img {
+  width: 243px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  margin: 0px 50px;
+  align-items: center;
+}
+
+.header-menu-items {
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-menu-item {
+  list-style: none;
+}
+
+.header-menu-link {
+  cursor: pointer;
+  padding: 0 25px 0 25px;
+  text-decoration: none;
+  position: relative;
+  color: #ffffff;
+  line-height: 1;
+  font-size: 16px;
+  font-weight: 500;
+  transition-duration: 0.3s;
+}
+
+.header-menu-link:hover {
+  color: #a259ff;
+}
+
+@media (max-width: 1200px) {
+  .header-menu-link {
+    font-size: 13px;
+  }
+  .header-btn button {
+    width: 40px;
+    height: 10px;
+    font-size: 14px;
+  }
+  .header-logo img {
+    width: 243px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 990px) {
+  .header-menu-link {
+    font-size: 11px;
+  }
+  .header-btn button {
+    width: 50px;
+    height: 10px;
+  }
+  .header-logo img {
+    width: 233px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 770px) {
+  .header-menu-link {
+    font-size: 10px;
+  }
+  .header-btn button {
+    width: 102px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .header-btn-img {
+    width: 15px;
+  }
+  .header-logo img {
+    width: 233px;
+    height: 28px;
+  }
+}
+
+/* @media (max-width: 600px) {
+  .header-menu-link {
+    font-size: 1px;
+  }
+  .header-btn button {
+    width: 50px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 941px) {
+  .header-menu-link {
+    font-size: 15px;
+  }
+  .header-btn button {
+    width: 122px;
+    height: 40;
+  }
+  .header-logo img {
+    width: 243px;
+    height: 28px;
+    cursor: pointer;
+  }
+} */
+
+.header-btn button {
+  background-color: #a259ff;
+  border: 0;
+  color: #ffffff;
+  width: 152px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.header-btn button:hover {
+  background-color: #3b3b3b;
+}
+
+.header-btn-img {
+  padding-right: 10px;
+}
